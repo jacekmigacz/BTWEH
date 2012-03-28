@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9F7F0F15239FCB002DEEA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7F0E15239FCB002DEEA1 /* UIKit.framework */; };
+		AD9F7F1115239FCB002DEEA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7F1015239FCB002DEEA1 /* Foundation.framework */; };
+		AD9F7F1315239FCB002DEEA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F7F1215239FCB002DEEA1 /* CoreGraphics.framework */; };
+		AD9F7F1915239FCB002DEEA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD9F7F1715239FCB002DEEA1 /* InfoPlist.strings */; };
+		AD9F7F1B15239FCB002DEEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7F1A15239FCB002DEEA1 /* main.m */; };
+		AD9F7F1F15239FCB002DEEA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7F1E15239FCB002DEEA1 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD9F7F0A15239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundTaskWithExpirationHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9F7F0E15239FCB002DEEA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD9F7F1015239FCB002DEEA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD9F7F1215239FCB002DEEA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD9F7F1615239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTaskWithExpirationHandler-Info.plist"; sourceTree = "<group>"; };
+		AD9F7F1815239FCB002DEEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD9F7F1A15239FCB002DEEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD9F7F1C15239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundTaskWithExpirationHandler-Prefix.pch"; sourceTree = "<group>"; };
+		AD9F7F1D15239FCB002DEEA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD9F7F1E15239FCB002DEEA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD9F7F0715239FCB002DEEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7F0F15239FCB002DEEA1 /* UIKit.framework in Frameworks */,
+				AD9F7F1115239FCB002DEEA1 /* Foundation.framework in Frameworks */,
+				AD9F7F1315239FCB002DEEA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD9F7EFF15239FCB002DEEA1 = {
+			isa = PBXGroup;
+			children = (
+				AD9F7F1415239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler */,
+				AD9F7F0D15239FCB002DEEA1 /* Frameworks */,
+				AD9F7F0B15239FCB002DEEA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD9F7F0B15239FCB002DEEA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7F0A15239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9F7F0D15239FCB002DEEA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7F0E15239FCB002DEEA1 /* UIKit.framework */,
+				AD9F7F1015239FCB002DEEA1 /* Foundation.framework */,
+				AD9F7F1215239FCB002DEEA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD9F7F1415239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7F1D15239FCB002DEEA1 /* AppDelegate.h */,
+				AD9F7F1E15239FCB002DEEA1 /* AppDelegate.m */,
+				AD9F7F1515239FCB002DEEA1 /* Supporting Files */,
+			);
+			path = BackgroundTaskWithExpirationHandler;
+			sourceTree = "<group>";
+		};
+		AD9F7F1515239FCB002DEEA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7F1615239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler-Info.plist */,
+				AD9F7F1715239FCB002DEEA1 /* InfoPlist.strings */,
+				AD9F7F1A15239FCB002DEEA1 /* main.m */,
+				AD9F7F1C15239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD9F7F0915239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9F7F2815239FCB002DEEA1 /* Build configuration list for PBXNativeTarget "BackgroundTaskWithExpirationHandler" */;
+			buildPhases = (
+				AD9F7F0615239FCB002DEEA1 /* Sources */,
+				AD9F7F0715239FCB002DEEA1 /* Frameworks */,
+				AD9F7F0815239FCB002DEEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundTaskWithExpirationHandler;
+			productName = BackgroundTaskWithExpirationHandler;
+			productReference = AD9F7F0A15239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9F7F0115239FCB002DEEA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AD9F7F0415239FCB002DEEA1 /* Build configuration list for PBXProject "BackgroundTaskWithExpirationHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD9F7EFF15239FCB002DEEA1;
+			productRefGroup = AD9F7F0B15239FCB002DEEA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD9F7F0915239FCB002DEEA1 /* BackgroundTaskWithExpirationHandler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD9F7F0815239FCB002DEEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7F1915239FCB002DEEA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD9F7F0615239FCB002DEEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7F1B15239FCB002DEEA1 /* main.m in Sources */,
+				AD9F7F1F15239FCB002DEEA1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD9F7F1715239FCB002DEEA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9F7F1815239FCB002DEEA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD9F7F2615239FCB002DEEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD9F7F2715239FCB002DEEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD9F7F2915239FCB002DEEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTaskWithExpirationHandler/BackgroundTaskWithExpirationHandler-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTaskWithExpirationHandler/BackgroundTaskWithExpirationHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD9F7F2A15239FCB002DEEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTaskWithExpirationHandler/BackgroundTaskWithExpirationHandler-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTaskWithExpirationHandler/BackgroundTaskWithExpirationHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD9F7F0415239FCB002DEEA1 /* Build configuration list for PBXProject "BackgroundTaskWithExpirationHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9F7F2615239FCB002DEEA1 /* Debug */,
+				AD9F7F2715239FCB002DEEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9F7F2815239FCB002DEEA1 /* Build configuration list for PBXNativeTarget "BackgroundTaskWithExpirationHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9F7F2915239FCB002DEEA1 /* Debug */,
+				AD9F7F2A15239FCB002DEEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD9F7F0115239FCB002DEEA1 /* Project object */;
+}
